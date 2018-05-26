@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" name="saturn-ani" version="1">
+
+<description type="text/html"><![CDATA[Widget Exported from Flash Professional]]></description>
+
+<category name="Flash Animation"/>
+<remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+<icon src="PosterImg_978.png" width="650" height="500"/>
+<require type="other" src="saturn-ani-pack.html"/>
+<require type="javascript" src="saturn-ani-pack.js"/>
+<require type="image" src="images/jupiter_ani_pack_atlas_.png"/>
+<require type="image" src="images/saturn_ani_pack_atlas_.png"/>
+<require type="folder" src="images/"/>
+<content></content>
+
+<properties name="Properties">
+<property name="default-width" defaultValue="650" hidden="true"/>
+<property name="default-height" defaultValue="500" hidden="true"/>
+<property name="resizable" defaultValue="true" hidden="true"/>
+<property name="centering" defaultValue="" hidden="true"/>
+<property name="scaling" defaultValue="both" hidden="true"/>
+<property name="html-page" defaultValue="saturn-ani-pack.html" hidden="true"/>
+<property name="target-platform" defaultValue="htmlcanvas" hidden="true"/>
+<property name="created-in" defaultValue="Adobe Animate CC" hidden="true"/>
+</properties>
+
+</widget>

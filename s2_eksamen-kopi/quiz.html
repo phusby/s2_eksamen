@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="dk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Quiz om solsystemet</title>
+		<link rel="stylesheet" href="planeter.css">
+		<link rel="stylesheet" href="app.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+	<div class="stjerner">
+  <header>
+    <div class="header">
+      <h1>Jordens Solsystem Quiz!</h1>
+    </div>
+  </header>
+		<div class="container home"><div class="row"><a href="planeter.html"><img src="images/home.png"></a></div></div>
+	<div class="fact-site">
+		<div class="row boks column shadow">		
+			<div class="container" id="app">
+			<div class="row column">
+				<div class="col-sm-12 question_wrapper">
+					<div class="answer_wrapper" v-for="(question, index) in questions" :key="index">
+					
+						<h3 v-text="question.question"></h3>
+						
+						<form class="form">
+						
+							<div class="form-check" v-for="(answer, qindex) in question.answers" :key="qindex">
+								
+								<label class="form-check-label" @click="pick(question.question, answer.answer)">
+								
+									<input class="form-check-input" type="radio" name="answer[]" :id="'example'+qindex" @click="pick(question.question, answer.answer)" :value="answer.id">
+									
+									{{ answer.answer }}
+									
+								</label>
+								
+							</div>
+							
+							
+						
+						</form>
+						
+					</div>
+					
+					
+					
+				</div>
+				
+				<div class="col-sm-12 btn_container">
+					<button type="button" class="btn btn-primary btn-lg" @click="submitAnswers()">Submit</button>
+				</div>
+				
+			</div>
+			
+		</div>
+			
+		<div class="solen">
+   </div></div> <div class="solenimg"> <img src="images/sol.png" width="100%"> </div>
+  </div>
+</div>
+<!--Footer-->
+<footer>
+  <div class="footercenter">
+    <div class="flex">
+      <div class="undermenu">
+        <h3>Det indre solsystem:</h3>
+        <div class="footercontent"> <a href="#">
+          <h2>Merkur</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Venus</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Jorden</h2>
+          </a>
+          <div class="footercontent"> <a href="#">
+            <h2>Solen</h2>
+            </a> </div>
+        </div>
+      </div>
+      <div class="undermenu">
+        <h3>Det ydre solsystem:</h3>
+        <div class="footercontent"> <a href="#">
+          <h2>Mars</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Jupiter</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Saturn</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Uranus</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Neptun</h2>
+          </a> </div>
+      </div>
+    </div>
+    <div class="flex">
+      <div class="undermenu">
+        <h3>Sidens opstand:</h3>
+        <a href="#"><img alt="github" src="images/github.svg"></a> <a href="#"><img alt="Trello" src="images/trello-512.png"></a> </div>
+      <div class="undermenu">
+        <h3>En side af:</h3>
+        <p class="adresse"> Marika Treichel and<br>
+          Pernille Husby-Nielsen<br>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+		<script src="./app.js"></script> 
+	</body>
+</html>

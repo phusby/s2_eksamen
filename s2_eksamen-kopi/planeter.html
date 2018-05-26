@@ -3,50 +3,103 @@
 <head>
 <meta charset="UTF-8">
 <title>Planeterne</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	<link rel="stylesheet" href="planeter.css">
+<link rel="stylesheet" href="planeter.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 </head>
 <body>
-<header>´
-
-	</header>
-	<div class="container">
-		<div class="row planeter">
-	<div class="col saturn  zoom"><img src="images/saturn.png"></div>
-	<div class="col zoom jorden">
-	  <object id="EdgeID" type="text/html" width="100%" height="100%" data-dw-widget="Edge" data="animation_assets/globe-ani/Assets/globe-ani-pack.html">
-	    </object>
+<div class="stjerner">
+  <header>
+    <div class="header">
+      <h1>Jordens Solsystem</h1>
     </div>
-	<div class="col jupiter rotate"><img src="images/jupiter.png" width="80%"></div>
-			<div class="col mars2 zoom"><img src="images/mars2.png"></div>
-			</div>
-		<div class="row planeter2">
-	<div class="col neptun zoom"><img src="images/neptun2.png" width="80%"></div>
-	<div class="col merkur align-self-end zoom"><img src="images/merkur2.png"></div>
-	<div class="col mars align-self-end zoom zoom"><img src="images/mars2.png"></div>
-			<div class="col jupiter rotate"><img src="images/jupiter2.png" width="80%"></div>
-			</div>
-	</div>
-		</div>
-	<div class="solen">
-	<div class="solenimg">
-	<img src="images/sol.png" width="100%">
-	</div>
-
-	<!--Footer-->
+  </header>
+  <div class="container">
+    <div class="row planeter">
+     <div class="responsive"> <div class="w50 saturn  zoom">
+        <img src="images/saturn.png" width="100%">
+      </div>
+      <div class="w50 zoom jorden"> <img src="images/jorden.png"> </div></div>
+      <div class="responsive tt"><div class="w50 venus zoom">
+       <img src="images/venus.png" width="100%">
+      </div>
+      <div class="w50 mars zoom">
+       <a href="mars.html">
+      <img src="images/mars2.png" widht="100%">
+       </a>
+        </div></div>
+    </div>
+    <div class="row planeter2">
+      <div class="responsive"><div class="w50 neptun zoom align-self-end">
+       <img src="images/neptun2.png" width="100%">
+      </div>
+      <div class="w50 merkur align-self-end zoom">
+        <img src="images/merkur2.png" width="100%">
+      </div></div>
+      <div class="responsive tt"><div class="w50 uranus align-self-end zoom zoom"><a href="#">
+        <img src="images/uranus.png" width="100%">
+        </a></div>
+     <div class="w50 jupiter zoom"><a href="jupiter.html">
+        <img src="images/jupiter2.png" width="100%">
+      </a></div></div>
+  </div>
+  <!--solen (footer)-->
+  <div class="solen">
+   <a href="#"></a>
+  </div>
+</div>
+<!--Footer-->
 <footer>
-
- 
-    <div class="text-center">
-       <p>A project by: Pernille Husby and Marika treichel</p>
+  <div class="footercenter">
+    <div class="flex">
+      <div class="undermenu">
+        <h3>Det indre solsystem:</h3>
+        <div class="footercontent"> <a href="#">
+          <h2>Merkur</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Venus</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Jorden</h2>
+          </a>
+          <div class="footercontent"> <a href="#">
+            <h2>Solen</h2>
+            </a> </div>
+        </div>
+      </div>
+      <div class="undermenu">
+        <h3>Det ydre solsystem:</h3>
+        <div class="footercontent"> <a href="#">
+          <h2>Mars</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Jupiter</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Saturn</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Uranus</h2>
+          </a> </div>
+        <div class="footercontent"> <a href="#">
+          <h2>Neptun</h2>
+          </a> </div>
+      </div>
     </div>
-    <!--/Copyright-->
-
+    <div class="flex">
+      <div class="undermenu">
+        <h3>Sidens opstand:</h3>
+        <a href="#"><img alt="github" src="images/github.svg"></a> <a href="#"><img alt="Trello" src="images/trello-512.png"></a> </div>
+      <div class="undermenu">
+        <h3>En side af:</h3>
+        <p class="adresse"> Marika Treichel and<br>
+          Pernille Husby-Nielsen<br>
+        </p>
+      </div>
+    </div>
+  </div>
 </footer>
-<!--/Footer-->
-	
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<!--/Footer--> 
 </body>
 </html>

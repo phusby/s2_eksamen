@@ -1,0 +1,22 @@
+
+.question_wrapper {
+    display: flex; 
+    justify-content: space-around;
+}
+ 
+.answer_wrapper {
+    -webkit-box-shadow: 0 8px 6px -6px #d0c8c8; 
+    -moz-box-shadow: 0 8px 6px -6px #d0c8c8; 
+    box-shadow: 0 8px 6px -6px #d0c8c8; 
+    padding: 15px; 
+    height: 150px; 
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-evenly;
+}
+ 
+.btn_container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
