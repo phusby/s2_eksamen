@@ -5,24 +5,61 @@
 <title>Planeterne</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link href="thermometeranimation.css" rel="stylesheet">
 	<link rel="stylesheet" href="planeter.css">
 </head>
 
 <body>
 	<div class="stjerner">
+		  <header>
+    <div class="header">
+      <h1>Merkur</h1>
+    </div>
+  </header>
 <div class="container home"><div class="row"><a href="planeter.html"><img src="images/home.png"></a></div></div>
 	<div class="fact-site">
 		<div class="row boks shadow">	
 			<div class="w50 venstre imgw100"><div class="faktaboks">
-				<h1>Fakta om Merkur:</h1>
+				<h1>Fakta om Jupiter:</h1>
 				<h4>Jupiter år:</h4>
 				<p>Et år svarer til 12 år på jorden (den tid det tager at flyve rundt komm solen.</p>
 				<h4>Jupiter døgn:</h4>
-				<p>Et døgn på Jupiter varer 10 timer, dvs tiden det tager planeten at snurre rundt om sig selv.</p>
+				<p>Et døgn på Jupiter varer 10 timer, hvilket faktisk er kortere end et jord døgn, dvs tiden det tager planeten at snurre rundt om sig selv.</p>
 				<h4>Placering:</h4>
-				<p>Jupiter er den femte planet fra solen. Dens afstand til solen er ca. 778 millioner km.</p>
-				</div> </div><!--https://www.123fakta.com/da/fakta-om-planeten-jupiter-->
+				<p>Merkur er den tætteste planet på solen, men ikke den varmeste. Den varmeste planet er venus.</p>
+				</div> 
+			<div class="animationer">
+				<div class="animationmerkur1">
+				  <object id="EdgeID" type="text/html" width="520" height="520" data-dw-widget="Edge" data="animation_assets/jorden-ani/Assets/jorden-ani-pack.html">
+			      </object>
+                </div>
+				<div class="animationmerkur2">
+				  <object id="EdgeID2" type="text/html" width="520" height="520" data-dw-widget="Edge" data="animation_assets/merkur-ani/Assets/merkur-ani.html">
+			      </object>
+                </div>
+			  </div>
 			
+			</div><!--https://www.123fakta.com/da/fakta-om-planeten-jupiter-->
+			<div class="w50 imgw100 hoejre termomerkur">
+				
+			
+    <div id="thermometer"><!--Termometer fundet på: https://codepen.io/francoisdillinger/pen/xLJXQV?page=1&-->
+      <div>
+        <div id="stem"></div>
+        <div id="marks"><div id="line">--<br>--<br>--<br>--<br>--<br>--<br>--<br>--<br>--<br>--<br>--<br>--<br>--<br>--<br>--</div></div>
+        <div id="merc-stem"><div id="mercury"></div></div>
+        <div id="bulb"></div>
+    </div>
+  </div>
+    <div id="text">
+      <hr id="one">
+		<h3>Temperaturen på Merkur:</h3>
+      <p><em>Dagstemperatur: 430 grader<br>Nattetemperatur: -180 grader</em></p>
+      <hr id="two">
+    </div>
+
+				<p class="pbot">Merkurs temperature variere stærkt, om natten er det bidende koldt. Temperaturen kommer helt ned på -180 grader: Dagtemperaturene er tilgengæld brændende varme med temperaturer op til 430 grader. </p><p>Merkur er den mindste planet i solsystemet og er kun en lille smule støre en vores måne. <br><br> Merkur har dog ikke selv en måne eller ringe.</p><p>Navnet Merkur stammer fra den romerske mytologi, hvor Merkur var gud for kommunikation, hurtighed og handel.</p>
+			</div>
 			
 			
 	</div>
@@ -72,7 +109,7 @@
           <h2>Neptun</h2>
           </a> </div>
       </div>
-    </div>
+    </div>s
     <div class="flex">
       <div class="undermenu">
         <h3>Sidens opstand:</h3>

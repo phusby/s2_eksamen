@@ -1,4 +1,4 @@
-s@charset "UTF-8";
+@charset "UTF-8";
 /* CSS Document */
 * {
 	
@@ -46,33 +46,43 @@ align-items: center;
 }
 .saturn img {
 	width: 100%;
+	display: block;
+	margin: 0 auto;
 }
 .jorden img {
-	padding-right: 40px;
 	width: 50%;
-	float: right;
+	display: block;
+	margin: 0 auto;
 }
 .mars img {
 	width: 40%;
-	padding-left: 100px;
+	display: block;
+	margin: 0 auto;
 }
 
 .neptun img{
  width: 80%;
+	display: block;
+	margin: 0 auto;
 }
 .uranus img {
 	width: 80%;
+	display: block;
+	margin: 0 auto;
 }
 .merkur img {
 width: 50%;
+	display: block;
+	margin: 0 auto;
 }
 .venus img {
 	width: 45%;
-	float: right;
-	padding-right: 90px;
+	display: block;
+	margin: 0 auto;
 }
-.jupiter object {
-	float: right;
+.jupiter img {
+	display: block;
+	margin: 0 auto;
 }
 
 .zoom {
@@ -96,15 +106,17 @@ width: 50%;
 .tooltip .tooltiptext {
     visibility: hidden;
     background-color: #F68284;
-    color: #000000;
+    color: #FFFFFF;
     text-align: center;
     padding: 5px 0;
 	border-radius: 6px; 
     /* Position the tooltip text - see examples below! */
     position: absolute;
-	width: 350px;
+	width: 100%;
     top: 110%;
-	margin-left: -50px;
+	display: block;
+	margin: 0 auto;
+	
 }
  /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
@@ -118,69 +130,21 @@ width: 50%;
 .tooltip2 .tooltiptext {
     visibility: hidden;
     background-color: #F68284;
-    color: #000000;
+    color: #FFFFFF;
     text-align: center;
     padding: 5px 0;
 	border-radius: 6px; 
-    /* Position the tooltip text! */
+    /* Position the tooltip text - see examples below! */
     position: absolute;
-	width: 350px;
-    top: 70%;
+	width: 100%;
+    top: 80%;
+	display: block;
+	margin: 0 auto;
 	
 }
-
  /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip2:hover .tooltiptext {
     visibility: visible;
-}
-
-.tooltip3 {
-    position: relative;
-    display: inline-block;
-	/* Tooltip text right*/}
-
-.tooltip3 .tooltiptext{
-    visibility: hidden;
-    background-color: #F68284;
-    color: #000000;
-    text-align: center;
-    padding: 5px 0;
-	border-radius: 6px; 
-    /* Position the tooltip text! */
-    position: absolute;
-	width: 350px;
-    top: 100%;
-	margin-left: -230px;
-}
-.tooltip3:hover .tooltiptext {
-    visibility: visible;
-}
-.tooltip4 {
-    position: relative;
-    display: inline-block;
-	/* Tooltip text right*/}
-
-.tooltip4 .tooltiptext{
-    visibility: hidden;
-    background-color: #F68284;
-    color: #000000;
-    text-align: center;
-    padding: 5px 0;
-	border-radius: 6px; 
-    /* Position the tooltip text! */
-    position: absolute;
-	width: 350px;
-    top: 70%;
-	margin-left: -230px;
-}
-.tooltip4:hover .tooltiptext {
-    visibility: visible;
-}
-.index10 {
-	z-index: 10;
-}
-.index9 {
-	z-index: 9;
 }
 
 .solen {
@@ -274,18 +238,56 @@ footer {
 }
 .fakta {
 	padding-right: 40px;
+	padding-left: 0px;
 }
 .imgw100 img {
 	width: 100%
 }
+.animationer {
+	width: 100%;
+	display: flex;
+	height: auto;
+	margin-right: 40px;
+	min-height: 260px;
+}
+.animation1 {
+	width: 35%;
+}
+.animation2 {
+	width: 65%;
+}
+.animationmerkur1 {
+	width: 70%;
+}
+.animationmerkur2{
+	width: 20%;
+}
+.animationjupiter1 {
+	width: 85%;
+}
+.animationjupiter2 {
+	width: 5%;
+}
 /*Quizzen*/
 .answer_wrapper {
-	width: 90%;
+	width: 94%;
 }
 .question_wrapper {
 	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
+}
+.cold {
+	width: 45%;
+}
+.cold h3 {
+	padding-bottom: 97px;
+}
+.greekgod img {
+	width: 80%
+}
+.hop img {
+	padding-top: 30px;
 }
 /*my bootstrap*/
 .responsive {
@@ -296,12 +298,35 @@ footer {
 	display: flex;
 
 }
-
+.index10 {
+	z-index: 10;
+}
+.index9 {
+	z-index: 9;
+}
+.index8 {
+	z-index: 8;
+}
+.index7 {
+	z-index: 7;
+}
+.index6 {
+	z-index: 6;
+}
+.index5 {
+	z-index: 5;
+}
+.index4 {
+	z-index: 4;
+}
 .w25 {
 	width: 25%;
 }
 .w50{
 	width: 50%;
+}
+.displayflex {
+	display: flex;
 }
 object {
 	width: 100%;
@@ -313,7 +338,7 @@ object {
 	width: auto;
 }
 .boks {
-	background-color: #E7E7E7;
+	background-color: #F5F5F5;
 	padding: 40px;
 	border-radius: 8px;
 	max-width: 1080px;
@@ -358,19 +383,6 @@ h1, h4, h3{
 .footercenter {
     padding: 0px 20px;
 }
-.tooltip .tooltiptext {
-	width: 250px;
-	margin-left: 0px;
-}
- /* Show the tooltip text when you mouse over the tooltip container */
-
-.tooltip2 .tooltiptext {
-	width: 250px; 
-}
- /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip2:hover .tooltiptext {
-    visibility: visible;
-}
 }
 @media screen and (max-width: 750px) {
 .flex {
@@ -380,6 +392,7 @@ h1, h4, h3{
     margin-left: auto;
     margin-right: auto;
 }
+
 }
 @media screen and (max-width: 615px){
 	.row {
@@ -393,22 +406,6 @@ h1, h4, h3{
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#EdgeID2 {
-	float: right;
-	padding-right: 40px;
-}
-	#EdgeID10 {
-	float: right;
-}
-#EdgeID5 {
-	float: right;
-}
-	.jorden img {
-	padding-right: 40px;
-	width: 60%;
-		float: right;
-}
-
 	.footer {
     max-width: 100%;
 }
@@ -430,6 +427,9 @@ h1, h4, h3{
 	margin-right: 0px;
 	
 	}
+	.zoom {
+		padding: 20px 0px;
+	}
 }
 @media screen and (max-width: 524px) {
 
@@ -443,6 +443,7 @@ h1, h4, h3{
 .flex {
     width: 100%;
 }
+
 }
 
 @media screen and (max-width: 350px) {
@@ -452,4 +453,5 @@ h1, h4, h3{
 	.w50 {/*width 50 bliver til 100*/
 		width: 100%;
 	}
+
 }

@@ -7,8 +7,6 @@
 <link rel="stylesheet" href="planeter.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-<link src="https://unpkg.com/popper.js@1.14.3/dist/umd/popper.min.js">
-<link src="https://unpkg.com/tooltip.js@1.2.0/dist/umd/tooltip.min.js">
 </head>
 <body>
 <div class="stjerner">
@@ -16,9 +14,9 @@
     <div class="header">
       <h1>Jordens Solsystem</h1>
     </div>
-    <div class="info"> <a href="quiz.html">
-      <p>Klik på Planeterne for at lære - eller klik her for at teste din viden!</p>
-      </a> </div>
+    <div class="info">
+		<p>Klik på Planeterne for at lære - eller <u><a href="quiz.html">klik her</a></u> for at teste din viden!</p>
+       </div>
   </header>
   <div class="container">
     <div class="row planeter">
@@ -28,19 +26,19 @@
           <p>Den 6. planet tættest på solen, Saturn er måske den mest genkendelige planet i vores solsystem med dens store ringsystem.</p>
           <h4>Klik på planeten for at læse mere</h4>
 			</span></a> </div>
-        <div class="w50 zoom tooltip2 index10 jorden"> <a href="jorden.html"> <img src="images/jorden.png"> <span class="tooltiptext">
+        <div class="w50 zoom tooltip2 index9 jorden"> <a href="jorden.html"> <img src="images/jorden.png"> <span class="tooltiptext">
           <h3>Jorden:</h3>
           <p>Jorden som er levested for os mennesker, er som bekendt den eneste planet i vores solsystem, som har vand. </p>
           <h4>Klik på planeten for at læse mere</h4>
           </span> </a> </div>
       </div>
       <div class="responsive tt">
-        <div class="w50 venus tooltip index9 zoom"> <a href="Venus.html"> <img src="images/venus.png" width="100%"> <span class="tooltiptext">
+        <div class="w50 venus tooltip index8 zoom"> <a href="Venus.html"> <img src="images/venus.png" width="100%"> <span class="tooltiptext">
           <h3>Venus:</h3>
           <p>Venus er, på trods af dens placering som nr. 2 fra solen, endnu varmere end Merkur. </p>
           <h4>Klik på planeten for at læse mere</h4>
           </span> </a> </div>
-        <div class="w50 mars tooltip3 index10 zoom"> <a href="mars.html"> <img src="images/mars2.png" widht="100%"> <span class="tooltiptext">
+        <div class="w50 mars tooltip index7 zoom"> <a href="mars.html"> <img src="images/mars2.png" widht="100%"> <span class="tooltiptext">
           <h3>Mars:</h3>
           <p>Mars er en kold og støvet planet. Det er dette støv, der giver den et rødligt udseende. Den ligger nr. 4 fra solen. </p>
           <h4>Klik på planeten for at læse mere</h4>
@@ -49,19 +47,19 @@
     </div>
     <div class="row planeter2">
       <div class="responsive">
-        <div class="w50 neptun zoom tooltip3"><a href="neptun.html"> <img src="images/neptun2.png" width="100%"> <span class="tooltiptext">
+        <div class="w50 neptun zoom index6 tooltip"><a href="neptun.html"> <img src="images/neptun2.png" width="100%"> <span class="tooltiptext">
           <h3>Neptun:</h3>
           <p>Neptun er den ottende planet fra solen og er kendt for dens stærke vinde, der kan blæse hurtigere end lydens hastighed.</p>
           <h4>Klik på planeten for at læse mere</h4>
 			</span></a> </div>
-        <div class="w50 merkur align-self-end tooltip4 zoom"> <a href="merkur.html"><img src="images/merkur2.png" width="100%"> <span class="tooltiptext">
+        <div class="w50 merkur index5 tooltip2 zoom"> <a href="merkur.html"><img src="images/merkur2.png" width="100%"> <span class="tooltiptext">
           <h3>Merkur:</h3>
           <p>Merkur er planeten tættest på solen og den mindste planet i vores solsystem.</p>
           <h4>Klik på planeten for at læse mere</h4>
 			</span> </a></div>
       </div>
       <div class="responsive tt">
-        <div class="w50 uranus tooltip3 zoom zoom"><a href="uranus.html"> <img src="images/uranus.png" width="100%"> <span class="tooltiptext">
+        <div class="w50 uranus tooltip2 index4 zoom zoom"><a href="uranus.html"> <img src="images/uranus.png" width="100%"> <span class="tooltiptext">
           <h3>Uranus:</h3>
           <p>Uranus er den roligste planet i vores solsystem og ligger som planet nr. 7 fra solen. </p>
           <h4>Klik på planeten for at læse mere</h4>
@@ -77,7 +75,9 @@
   </div>
   <!--solen (footer)-->
   <div class="solen">
-    <div class="solenimg"><img src="images/sol.png" width="100%"></div>
+    <div class="solenimg">
+	<img src="images/sol.png" width="100%">
+    </div>
   </div>
 </div>
 <!--Footer-->

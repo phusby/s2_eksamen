@@ -4,58 +4,58 @@ new Vue({
         return {
             questions: [
                 {
-                    question: "Bor du på jorden?",
+                    question: "Har merkur en måne?",
                     answers: [
-                        { answer: "Ja, det gør jeg.", id: '1', picked: 0, correct: true },
-                        { answer: "Nej, det gør jeg ikke.", id: '1', picked: 0, correct: false },
+                        { answer: "Ja", id: '1', picked: 0, correct: false },
+                        { answer: "Nej", id: '2', picked: 0, correct: true },
                     ]
                 },{
-                    question: "Er der to onsdage på en uge?",
+                    question: "Hvor mange dage tager det Venus at rotere om sin akse?",
                     answers: [
-                        { answer: "Ja, det er der!", id: '1', picked: 0, correct: false },
-                        { answer: "Nej, det er der ikke!", id: '2', picked: 0, correct: true },
+                        { answer: "243 døgn", id: '1', picked: 0, correct: true },
+                        { answer: "365 døgn", id: '2', picked: 0, correct: false },
                     ]
                 },
 				{
-                    question: "Er der to tirsdage på en uge?",
+                    question: "Hvor langt væk er jorden fra solen i gennemsnittet?",
                     answers: [
-                        { answer: "Ja, det er der!", id: '1', picked: 0, correct: false },
-                        { answer: "Nej, det er der ikke!", id: '2', picked: 0, correct: true },
+                        { answer: "150 mio. km i gennemsnit", id: '1', picked: 0, correct: true },
+                        { answer: "300 mio. km i gennemsnit", id: '2', picked: 0, correct: false },
                     ]
                 },
 				{
-                    question: "Er der to torsdage på en uge?",
+                    question: "Mars’ to måner hedder Phobos og Deimos. Hvad betyder disse græske ord?",
                     answers: [
-                        { answer: "Ja, det er der!", id: '1', picked: 0, correct: false },
-                        { answer: "Nej, det er der ikke!", id: '2', picked: 0, correct: true },
+                        { answer: "Kæmper og Guder", id: '1', picked: 0, correct: false },
+                        { answer: "Skræk og Rædsel", id: '2', picked: 0, correct: true },
                     ]
                 },
 				{
-                    question: "Er der to fredage på en uge?",
+                    question: "Hvor mange jordkloder kan jupiter rumme?",
                     answers: [
-                        { answer: "Ja, det er der!", id: '1', picked: 0, correct: false },
-                        { answer: "Nej, det er der ikke!", id: '2', picked: 0, correct: true },
+                        { answer: "1300", id: '1', picked: 0, correct: true },
+                        { answer: "500", id: '2', picked: 0, correct: false },
                     ]
                 },
 				{
-                    question: "Er der to dage på en uge?",
+                    question: "Hvad består Saturns ringe af?",
                     answers: [
-                        { answer: "Ja, det er der!", id: '1', picked: 0, correct: false },
-                        { answer: "Nej, det er der ikke!", id: '2', picked: 0, correct: true },
+                        { answer: "Gas og asteroider", id: '1', picked: 0, correct: false },
+                        { answer: "Is og isbelagte småsten", id: '2', picked: 0, correct: true },
                     ]
                 },
 				{
-                    question: "Er der to lørdage på en uge?",
+                    question: "Er det sandt at Uranus var den første planet, der blev opdaget?",
                     answers: [
-                        { answer: "Ja, det er der!", id: '1', picked: 0, correct: false },
-                        { answer: "Nej, det er der ikke!", id: '2', picked: 0, correct: true },
+                        { answer: "Ja", id: '1', picked: 0, correct: true },
+                        { answer: "Nej", id: '2', picked: 0, correct: false },
                     ]
                 },
                 {
-                    question: "Er der to gengkfm på en uge?",
+                    question: " Hvilken romersk gud er Neptun opkaldt efter?",
                     answers: [
-                        { answer: "Ja, det er der!", id: '1', picked: 0, correct: false },
-                        { answer: "Nej, det er der ikke!", id: '2', picked: 0, correct: true },
+                        { answer: "Krigens gud", id: '1', picked: 0, correct: false },
+                        { answer: "Havets gud", id: '2', picked: 0, correct: true },
                     ]
                 }
             ],
