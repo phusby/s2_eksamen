@@ -45,7 +45,7 @@ new Vue({
                     ]
                 },
 				{
-                    question: "Er det sandt at Uranus var den første planet, der blev opdaget?",
+                    question: "Er det sandt at Uranus var den første planet, der blev opdaget i teleskop?",
                     answers: [
                         { answer: "Ja", id: '1', picked: 0, correct: true },
                         { answer: "Nej", id: '2', picked: 0, correct: false },

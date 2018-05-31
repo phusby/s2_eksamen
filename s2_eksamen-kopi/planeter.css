@@ -146,6 +146,15 @@ width: 50%;
 .tooltip2:hover .tooltiptext {
     visibility: visible;
 }
+.tooloverskrift {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1.3em;
+}
+.toolunder {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1.1em;
+	letter-spacing: 0.03em;
+}
 
 .solen {
 	margin-bottom: -4px;
@@ -268,6 +277,18 @@ footer {
 .animationjupiter2 {
 	width: 5%;
 }
+.animationuranus1 {
+	width: 80%;
+}
+.animationuranus2 {
+	width: 10%
+}
+.animationneptun1{
+	width: 75%;
+}
+.animationneptun2 {
+	width: 15%;
+}
 /*Quizzen*/
 .answer_wrapper {
 	width: 94%;
@@ -288,6 +309,17 @@ footer {
 }
 .hop img {
 	padding-top: 30px;
+}
+.snowalien img {
+	border-radius: 40px;
+	border: #F35F45 solid 20px;
+	width: 65%
+}
+.snowalien {
+	width: 40%;
+}
+.snow p {
+	margin-top: -15px;
 }
 /*my bootstrap*/
 .responsive {
@@ -328,6 +360,10 @@ footer {
 .displayflex {
 	display: flex;
 }
+.auto {
+	margin-left: auto;
+	margin-right: auto;
+}
 object {
 	width: 100%;
 }
@@ -355,8 +391,8 @@ h1, h4, h3{
 .column {
 	flex-direction: column;
 }
-#app {
-	
+.w100 {
+	width: 100%;
 }
 .btn {
 	width: 100%;
