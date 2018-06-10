@@ -101,7 +101,7 @@ width: 50%;
 .tooltip {
     position: relative;
     display: inline-block;
-	/* Tooltip text right*/}
+}
 	
 .tooltip .tooltiptext {
     visibility: hidden;
@@ -110,7 +110,7 @@ width: 50%;
     text-align: center;
     padding: 5px 0;
 	border-radius: 6px; 
-    /* Position the tooltip text - see examples below! */
+
     position: absolute;
 	width: 100%;
     top: 110%;
@@ -118,14 +118,14 @@ width: 50%;
 	margin: 0 auto;
 	
 }
- /* Show the tooltip text when you mouse over the tooltip container */
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
 .tooltip2 {
     position: relative;
     display: inline-block;
-	/* Tooltip text right*/}
+}
 	
 .tooltip2 .tooltiptext {
     visibility: hidden;
@@ -134,7 +134,7 @@ width: 50%;
     text-align: center;
     padding: 5px 0;
 	border-radius: 6px; 
-    /* Position the tooltip text - see examples below! */
+
     position: absolute;
 	width: 100%;
     top: 80%;
@@ -142,7 +142,7 @@ width: 50%;
 	margin: 0 auto;
 	
 }
- /* Show the tooltip text when you mouse over the tooltip container */
+
 .tooltip2:hover .tooltiptext {
     visibility: visible;
 }
@@ -259,35 +259,58 @@ footer {
 	margin-right: 40px;
 	min-height: 260px;
 }
-.animation1 {
-	width: 35%;
+.animation1 {/*mars*/
+	width: 30%;
+	max-height: 350px;
 }
 .animation2 {
-	width: 65%;
+	width: 60%;
+	max-height: 350px;
 }
 .animationmerkur1 {
 	width: 70%;
+	max-height: 350px;
 }
 .animationmerkur2{
 	width: 20%;
+	max-height: 450px;
 }
 .animationjupiter1 {
 	width: 85%;
+	max-height: 450px;
 }
 .animationjupiter2 {
 	width: 5%;
+	max-height: 350px;
 }
 .animationuranus1 {
 	width: 80%;
+	max-height: 450px;
 }
 .animationuranus2 {
-	width: 10%
+	width: 10%;
+	max-height: 450px;
 }
 .animationneptun1{
 	width: 75%;
+	max-height: 450px;
 }
 .animationneptun2 {
 	width: 15%;
+	max-height: 450px;
+}
+.animationsaturn1{
+	width: 81%;
+	max-height: 350px;
+}
+.animationsaturn2 {
+	width: 9%;
+	max-height: 350px;
+}
+.animationervenus {
+	width: 44%;
+	padding-right: 20px;
+	max-height: 350px;
 }
 /*Quizzen*/
 .answer_wrapper {
@@ -320,6 +343,10 @@ footer {
 }
 .snow p {
 	margin-top: -15px;
+}
+.triton {
+	width: 50%;
+	padding-right: 20px;
 }
 /*my bootstrap*/
 .responsive {
@@ -428,7 +455,27 @@ h1, h4, h3{
     margin-left: auto;
     margin-right: auto;
 }
-
+	.snowalien img {
+	
+	width: 100%
+}
+.snowalien {
+	width: 80%;
+}
+.snow {
+	width: 100%
+}
+	.auto img {
+		width: 100%;
+	}
+	.auto { 
+	width: 100%}
+.columnmedia {
+		flex-direction: column;
+	}
+	.w100media {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 615px){
 	.row {
@@ -465,6 +512,24 @@ h1, h4, h3{
 	}
 	.zoom {
 		padding: 20px 0px;
+	}
+	.snowalien img {
+	
+	width: 100%;
+}
+.snowalien {
+	width: 40%;
+	margin-left: auto;
+		margin-right: auto;
+}
+.snow {
+	width: 100%
+}
+	.auto {
+		width: 100%;
+	}
+	.auto img {
+		width: 50%
 	}
 }
 @media screen and (max-width: 524px) {

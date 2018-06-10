@@ -1,115 +1,55 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>Planeterne</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<link rel="stylesheet" href="planeter.css">
-	<link rel="stylesheet" href="thermometeranimation.css">
+<title>Untitled Document</title>
+	<style>
+
+
+
+span {
+  position: relative;
+  margin: 40px 0;
+  padding: 14px 16px;
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 600;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  -webkit-box-shadow: 6px 6px 20px 2px rgba(0,0,0,0.5);
+-moz-box-shadow: 6px 6px 20px 2px rgba(0,0,0,0.5);
+box-shadow: 6px 6px 20px 2px rgba(0,0,0,0.5);
+}
+
+.bkgd {
+  	background: -moz-linear-gradient(top,  #FF3E42 50%, #FF797B 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#FF3E42), color-stop(50%,#FF4B4D)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #FF3E42 50%, #FF797B 50%) /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #FF3E42 50%, #FF797B 50%) /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #FF3E42 50%, #FF797B 50%) /* IE10+ */
+	background: linear-gradient(to bottom,  #FF3E42 50%, #FF797B 50%) /* W3C */
+}
+
+#myChart {
+    padding-top: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; 
+    height: 100vh;
+    display: block;
+}
+	</style>
 </head>
 
 <body>
-	<div class="stjerner">
-		  <header>
-    <div class="header">
-      <h1>Jorden</h1>
-    </div>
-  </header>
-<div class="container home"><div class="row"><a href="planeter.html"><img src="images/home.png"></a></div></div>
-	<div class="fact-site">
-		<div class="row boks shadow">	
-			<div class="w50 venstre imgw100"><div class="faktaboks">
-				<h1>Fakta om Jorden:</h1>
-				<h4>Jord år:</h4>
-				<p>Et år på jorden er som vi kender det 365 dage (den tid det tager at flyve rundt komm solen).</p>
-				<h4>Jorden døgn:</h4>
-				<p>Et døgn på Jupiter varer 24 timer, dvs tiden det tager planeten at snurre rundt om sig selv.</p>
-				<h4>Placering:</h4>
-				<p>Jorden ligger nummer 3 fra solen, den ligger i universets "smørhul" lige ved den perfekte temperatur til liv kan opstå.</p>
-				</div> 
-			<div class="animationjupiter1">
-			  <object id="EdgeID" type="text/html" width="520" height="520" data-dw-widget="Edge" data="animation_assets/jorden-ani/Assets/jorden-ani-pack.html">
-		      </object>
-			</div>
-		  </div><!--https://www.123fakta.com/da/fakta-om-planeten-jupiter-->
-			
-			<div class="w50 imgw100 hoejre">
-<h1>Mennesker på Jorden nu:</h1><!--population tæller fundet på: https://codepen.io/bewley/pen/EKMXjR-->
+<h1>Mennesker på Jorden nu:</h1>
 
-<div id="worldpop" class="bkgd"></div>
-<p>Jorden er vores hjem. Det er blandt andet vores hjem, fordi Jorden er det eneste sted på jorden, der har flydende vand og hvor liv kan ske.<br><br>To grunde er måske hovedårsagen til, at liv kan eksistere på jorden:
-<ol><li> Jorden er i en passende afstand fra solen, så vand ikke fordamper.</li>
-<li> Jorden er tung nok til at have en atmosfære.</li></ol>
-Dette er dog kun gæt, da ingen rigtig forstår, hvorfor Jorden kan indeholde liv på den måde, som den gør. <br><br>Jorden er dækket af en skorpe på 35 kilometer. Det er på denne skorpe, vi lever vores liv. Under skorpen er der så en 5 kilometer tyk kappe, som omslutter Jordens kerne. Jordens kerne har en radius på 3500 kilometer. Den yderste del af kernen er formentlig lavet af flydende metal, som omringer den centrale del af kernen, som er 5200 grader varm.
-</p>
-		</div>
-			
-	</div>
-		
-		</div>
-	<!--solen (footer)-->
-	<div class="solen">
-	<div class="solenimg">
-	<img src="images/sol.png" width="100%">
-	</div>
-		</div>
-		</div>
-		
-	<footer>
-  <div class="footercenter">
-    <div class="flex">
-      <div class="undermenu">
-        <h3>Det indre solsystem:</h3>
-        <div class="footercontent"> <a href="#">
-          <h2>Merkur</h2>
-          </a> </div>
-        <div class="footercontent"> <a href="#">
-          <h2>Venus</h2>
-          </a> </div>
-        <div class="footercontent"> <a href="#">
-          <h2>Jorden</h2>
-          </a>
-          <div class="footercontent"> <a href="#">
-            <h2>Solen</h2>
-            </a> </div>
-        </div>
-      </div>
-      <div class="undermenu">
-        <h3>Det ydre solsystem:</h3>
-        <div class="footercontent"> <a href="#">
-          <h2>Mars</h2>
-          </a> </div>
-        <div class="footercontent"> <a href="#">
-          <h2>Jupiter</h2>
-          </a> </div>
-        <div class="footercontent"> <a href="#">
-          <h2>Saturn</h2>
-          </a> </div>
-        <div class="footercontent"> <a href="#">
-          <h2>Uranus</h2>
-          </a> </div>
-        <div class="footercontent"> <a href="#">
-          <h2>Neptun</h2>
-          </a> </div>
-      </div>
-    </div>
-    <div class="flex">
-      <div class="undermenu">
-       <h3>Tag quizen:</h3>
-        <div class="footercontent"> <a href="quiz.html">
-            <h2>Quizzen</h2>
-            </a> </div></div>
-      <div class="undermenu">
-        <h3>En side af:</h3>
-        <p class="adresse"> Marika Treichel and<br>
-          Pernille Husby-Nielsen<br>
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
+<span id="worldpop" class="bkgd"></span>
+
+<canvas id="myChart"></canvas>
+	
 	<script>
 	// Plan to have blank page 1 button, press to begin animation - start with green background and counter at 0, building up as graph is drawing, showing dates along the way, background is slowly changing to red/dark red until hits today, and show the below JS code for population.
 
